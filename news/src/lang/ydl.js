@@ -1,0 +1,45 @@
+
+/**
+ * 意大利语
+ */
+export default {
+    message: {
+      title: 'Sistema di gestione delle notizie',
+      home: 'Home',
+      all: 'Dettagli delle notizie',
+      person: 'Profilo personale',
+      loginOut: 'Esci',
+      hotNews: 'Notizie popolari',
+      news: 'Ultime notizie',
+      thumbsUp: 'Mi piace',
+      comment: 'Commenti',
+      share: 'Pubblica',
+      createTime: 'Orario di pubblicazione',
+      personInfo: 'Ciao, benvenuto nel sistema di consultazione delle notizie. Qui puoi modificare le tue informazioni personali',
+      changeAvatar: 'Clicca per cambiare avatar',
+      save: 'Salva',
+      cancel: 'Annulla',
+      username: 'Account',
+      name: 'Nickname',
+      email: 'Email',
+      phone: 'Contatti',
+      address: 'Indirizzo',
+      changeInfo: 'Modifica informazioni personali',
+      欢迎登录: 'Benvenuto',
+      password: 'Password',
+      立即登录: 'Accedi ora',
+      用户注册: 'Registrazione utente',
+      repassword: 'Conferma password',
+      立即注册: 'Registrati ora',
+      欢迎来到新闻浏览系统: 'Benvenuto nel sistema di consultazione delle notizie',
+      在这里: 'Qui puoi trovare le ultime informazioni',
+      同时: 'Puoi anche esprimere le tue opinioni e condividerle con tutti',
+      让我们: 'Esploriamo insieme il mondo delle notizie',
+      已有账号: 'Già registrato?',
+      新用户: 'Nuovo utente?',
+      立即登录体验更多功能: 'Accedi ora per più funzionalità',
+      注册账号开启全新旅程: 'Registrati per iniziare un nuovo viaggio',
+      去登陆: 'Vai al login',
+      去注册: 'Vai alla registrazione',
+    }
+  };

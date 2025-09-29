@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="LOG_DIR">logs</Property>
+    </Properties>
+
+    <Appenders>
+        <RollingFile name="FileAppender"
+                     fileName="${LOG_DIR}/log.log"
+                     filePattern="${LOG_DIR}/log-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout>
+                <!-- 添加 %X{ip} 来输出客户端IP -->
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} [IP: %X{ip}] - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <!--每天滚动一次日志-->
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <!--每超过100MB滚动一次日志-->
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,28 @@
+2025-05-08 04:35:21 [main] INFO  com.example.manager.ManagerApplication [IP: ] - Starting ManagerApplication using Java 17.0.12 with PID 15948 (E:\Markdown\news project\manager\target\classes started by LAZNT in E:\Markdown\news project\manager)
+2025-05-08 04:35:21 [main] INFO  com.example.manager.ManagerApplication [IP: ] - No active profile set, falling back to 1 default profile: "default"
+2025-05-08 04:35:22 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [IP: ] - Tomcat initialized with port 8088 (http)
+2025-05-08 04:35:22 [main] INFO  org.apache.coyote.http11.Http11NioProtocol [IP: ] - Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2025-05-08 04:35:22 [main] INFO  org.apache.catalina.core.StandardService [IP: ] - Starting service [Tomcat]
+2025-05-08 04:35:22 [main] INFO  org.apache.catalina.core.StandardEngine [IP: ] - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-05-08 04:35:22 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [IP: ] - Initializing Spring embedded WebApplicationContext
+2025-05-08 04:35:22 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [IP: ] - Root WebApplicationContext: initialization completed in 1185 ms
+2025-05-08 04:35:23 [main] WARN  org.springframework.web.servlet.resource.ResourceHandlerUtils [IP: ] - Appended trailing slash to static resource location: file:E:/新闻浏览平台/manager/src/main/resources/static/images/
+2025-05-08 04:35:23 [main] INFO  org.apache.coyote.http11.Http11NioProtocol [IP: ] - Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2025-05-08 04:35:23 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [IP: ] - Tomcat started on port 8088 (http) with context path '/'
+2025-05-08 04:35:23 [main] INFO  com.example.manager.ManagerApplication [IP: ] - Started ManagerApplication in 2.248 seconds (process running for 3.287)
+2025-05-08 04:35:57 [http-nio-0.0.0.0-8088-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [IP: ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-08 04:35:57 [http-nio-0.0.0.0-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet [IP: ] - Initializing Servlet 'dispatcherServlet'
+2025-05-08 04:35:57 [http-nio-0.0.0.0-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet [IP: ] - Completed initialization in 0 ms
+2025-05-08 04:35:57 [http-nio-0.0.0.0-8088-exec-2] INFO  com.example.manager.controller.UserController [IP: 0:0:0:0:0:0:0:1] - admin登录系统
+2025-05-08 04:35:57 [http-nio-0.0.0.0-8088-exec-2] INFO  com.zaxxer.hikari.HikariDataSource [IP: 0:0:0:0:0:0:0:1] - HikariPool-1 - Starting...
+2025-05-08 04:35:58 [http-nio-0.0.0.0-8088-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool [IP: 0:0:0:0:0:0:0:1] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f2cecee
+2025-05-08 04:35:58 [http-nio-0.0.0.0-8088-exec-2] INFO  com.zaxxer.hikari.HikariDataSource [IP: 0:0:0:0:0:0:0:1] - HikariPool-1 - Start completed.
+2025-05-08 04:35:58 [http-nio-0.0.0.0-8088-exec-2] INFO  com.example.manager.controller.UserController [IP: 0:0:0:0:0:0:0:1] - admin登陆成功
+2025-05-08 04:36:00 [http-nio-0.0.0.0-8088-exec-9] INFO  com.example.manager.controller.NewsCrawlerController [IP: 0:0:0:0:0:0:0:1] - 爬取新闻
+2025-05-08 04:37:07 [http-nio-0.0.0.0-8088-exec-2] INFO  com.example.manager.controller.UserController [IP: 0:0:0:0:0:0:0:1] - admin登录系统
+2025-05-08 04:37:07 [http-nio-0.0.0.0-8088-exec-2] INFO  com.example.manager.controller.UserController [IP: 0:0:0:0:0:0:0:1] - admin登陆成功
+2025-05-08 04:39:23 [http-nio-0.0.0.0-8088-exec-6] INFO  com.example.manager.controller.UserController [IP: 0:0:0:0:0:0:0:1] - 获取用户信息的id:1
+2025-05-08 04:47:23 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown [IP: ] - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-08 04:47:23 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown [IP: ] - Graceful shutdown complete
+2025-05-08 04:47:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource [IP: ] - HikariPool-1 - Shutdown initiated...
+2025-05-08 04:47:23 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource [IP: ] - HikariPool-1 - Shutdown completed.
