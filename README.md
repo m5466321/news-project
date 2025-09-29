@@ -409,8 +409,8 @@ Spring Boot 应用，采用分层架构（Controller-Service-Mapper），并结�
 普通索引：user_username_index（字段username）
 
 ##### 3.4.8 表关系说明
-表关系说明.png
-![image-表关系说明](./表关系说明.png)
+
+![alt text](表关系说明.png)
 
 ##### 3.4.9 外键关联
 
@@ -540,7 +540,7 @@ git clone https://github.com/your-repo/news-project.git
 
 如果你碰巧喜欢这个项目，并希望我继续维护下去，请考虑赞助我或提供一个单一的捐款！
 
-<img src="./赞助.jpg" alt="赞助" style="zoom: 25%;" />
+![alt text](赞助.jpg)
 
 ### 8 视频演示/项目部署帮助
 
